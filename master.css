@@ -1,0 +1,152 @@
+ 
+.loginBox {
+  margin: auto;
+  text-align: center;
+  border: grey 1px solid;
+  width: 16rem;
+  height: 6rem;
+}
+
+.selectionContainer {
+  margin: 0 auto;
+  width: 30rem;
+}
+
+.userSelectionContainer {
+  margin: 0 auto;
+  width: 40rem;
+}
+
+.followingDisplay {
+  margin: auto;
+  width: 16rem;
+  display: inline-block;
+}
+
+.followingBox {
+  margin: auto;
+  border: grey 1px solid;
+  width: 15rem;
+  height: 4rem;
+}
+
+.barBox {
+  border: grey 3px solid;
+  height: 20rem;
+  width: 10rem;
+  text-align: center;
+  position: fixed;
+  top: 9rem;
+  border-radius: 5px;
+  padding: 1rem;
+  background: rgb(195,205,200)
+}
+
+.barButton {
+  margin: .25rem;
+  width: 8rem;
+  height: 2rem;
+}
+
+.barSearch {
+  margin: .25rem;
+  width: 8rem;
+  height: 1rem;
+}
+
+#bar-profile {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+  background: grey;
+  margin: auto;
+}
+
+.newStatusBox {
+  margin: auto;
+  position: fixed;
+  top: 10rem;
+  left: 40%;
+  width:15rem;
+  height:15rem;
+  border: grey 2px solid;
+  background:white;
+  text-align: center;
+}
+
+.statusBox {
+  border: grey 2px solid;
+  width: 27rem;
+  height: auto;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 8px;
+  background: rgb(195,205,200)
+}
+
+.status-content {
+  margin-top: -.5rem;
+  margin-left: 4rem;
+  font-size: 12px;
+}
+
+.status-image {
+  width: 10rem;
+  border-radius: 10%;
+  border: black 2px solid;
+}
+
+.profile {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+  background: grey;
+  border: 1px grey solid;
+  /* border: black, solid, 1px; */
+}
+
+.profile-small {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  margin-left: .5rem;
+  margin-top: .5rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+  background: grey;
+  border: 1px grey solid;
+
+}
+
+.modal {
+  /* display: none;  */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  position: fixed; /* Stay in place */
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 10rem;
+  width: 30rem; /* Full width */
+  border: 1px grey solid;
+  background-color: rgb(255,255,255);
+}
